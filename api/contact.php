@@ -1,11 +1,10 @@
 <?php
 $receiving_email_address = 'info@smartcodembs.com';
 
-if (file_exists($php_email_form = './php-email-form/php-email-form.php')) {
+if (file_exists($php_email_form =  __DIR__ . './php-email-form/php-email-form.php')) {
   include($php_email_form);
 } else {
-  die($php_email_form . ' is missing!');
-  die('Unable to load the "PHP Email Form" Library!');
+  die(__DIR__ . './php-email-form/php-email-form.php');
 }
 
 $contact = new PHP_Email_Form;
