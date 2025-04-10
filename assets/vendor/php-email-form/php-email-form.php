@@ -9,6 +9,7 @@ require __DIR__ . '/PHPMailer/src/PHPMailer.php';
 require __DIR__ . '/PHPMailer/src/SMTP.php';
 
 
+
 class PHP_Email_Form {
     public $to;
     public $from_name;
