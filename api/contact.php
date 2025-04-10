@@ -1,10 +1,10 @@
 <?php
 $receiving_email_address = 'info@smartcodembs.com';
 
-if (file_exists($php_email_form =  __DIR__ . '/php-email-form/php-email-form.php')) {
+if (file_exists($php_email_form =  dirname(__DIR__, 1) . '/php-email-form/php-email-form.php')) {
   include($php_email_form);
 } else {
-  die(__DIR__ . './php-email-form/php-email-form.php');
+  die(dirname(__DIR__, 3). './php-email-form/php-email-form.php');
 }
 
 $contact = new PHP_Email_Form;
