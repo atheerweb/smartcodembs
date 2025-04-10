@@ -1,6 +1,6 @@
 <?php
 // Load Composer's autoloader
-require_once __DIR__ . '/../vendor/autoload.php';
+require_once dirname(__DIR__, 3) . '/vendor/autoload.php';
 
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
