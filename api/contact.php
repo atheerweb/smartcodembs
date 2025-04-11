@@ -177,7 +177,7 @@ $contact->smtp = array(
   'host' => 'mail.smartcodembs.com',
   'username' => 'info@smartcodembs.com',
   'password' => 'AllenTx202@',
-  'port' => 465
+  'port' => 1025
 );
 
 
