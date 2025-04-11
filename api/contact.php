@@ -2,6 +2,9 @@
 $receiving_email_address = 'info@smartcodembs.com';
 
 
+
+
+
 // Load Composer's autoloader
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
