@@ -1,7 +1,7 @@
 <?php
 $receiving_email_address = 'info@smartcodembs.com';
 
-
+require 'vendor/autoload.php';
 
 
 
@@ -11,9 +11,6 @@ use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 
 
-require __DIR__ . '/PHPMailer/src/Exception.php';
-require __DIR__ . '/PHPMailer/src/PHPMailer.php';
-require __DIR__ . '/PHPMailer/src/SMTP.php';
 
 
 class PHP_Email_Form {
