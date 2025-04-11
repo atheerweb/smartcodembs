@@ -1,7 +1,7 @@
 <?php
 $receiving_email_address = 'info@smartcodembs.com';
 
-require 'vendor/autoload.php';
+require dirname(__DIR__, 1) . 'vendor/autoload.php';
 
 
 
