@@ -111,7 +111,7 @@ class PHP_Email_Form {
         try {
             // Server settings
             $mail->isSMTP();
-          
+        
             $mail->Host = $this->smtp['host'];
             $mail->SMTPAuth = true;
             $mail->Username = $this->smtp['username'];
@@ -171,7 +171,7 @@ $contact->smtp = array(
   'host' => 'mail.smartcodembs.com',
   'username' => 'info@smartcodembs.com',
   'password' => 'AllenTx202@',
-  'port' => 465
+  'port' => 1025
 );
 
 
